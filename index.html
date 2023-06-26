@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrador</title>
+
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./media/logo.png" alt="logo de la empresa">
+            <h2 class="nombre-empresa">TodoMascotas</h2>
+        </div>
+
+        <nav class="navbar">
+            <label for="toggle-menu">
+                <img class="img-menu" src="./media/menu.png" alt="menu">
+            </label>
+            <input type="checkbox" id="toggle-menu">
+
+            <ul class="navbar-list">
+           
+           <li><a href="#inicio">Inicio</a></li>
+           <li><a href="#servicios">Servicios</a></li>
+           <li><a href="#productos">Productos</a></li>
+           <li><a href="#contacto">Contacto</a></li>
+           <li><a href="#cuenta">Mi cuenta</a></li>
+
+         </ul>
+        <img src="./media/carrito.png" alt="carrito de compras">
+       </nav> 
+    </header>
+
+    <main>
+        <section class="inicio" id="inicio">
+            <div class="hero-info">
+                <h2>TodoMascotas</h2>
+                <p>Con 20 años de experiencia en el rubro, en TodoMascotas consideramos a nuestras mascotas como un miembro más de la familia, es por esto que ofrecemos la mejor calidad de productos alimenticios, accesorios, farmacia, y mucho más.
+                </p>
+            </div>
+
+            <div class="hero-photo">
+                <img src="./media/perro portada.jpg">
+            </div>
+        </section>
+
+        <section class="servicios" id="servicios">
+            <div class="about-us-titulo">
+                <h2>Nuestros servicios</h2>
+            </div>
+            <div class="about-us-card">
+                <div class="card-info">
+                    <img src="./media/alimento.png" alt="productos alimentos">
+                    <h3>Las mejores marcas</h3>
+                    <p>Ofrecemos la mejor calidad en productos alimenticios para tu mascota</p>
+                </div>
+
+                <div class="card-info">
+                    <img src="media/envio.png" alt="imagen envios">
+                    <h3>Envíos a todo el país</h3>
+                    <p>Trabajamos con empresas de transporte que garantizan la llegada de tu pedido lo más rápido posible</p>
+                </div>
+
+                <div class="card-info">
+                    <img src="media/pago.png" alt="imagen pagos">
+                    <h3>Todos los medios de pago</h3>
+                    <p>Al finalizar tu compra, podrás abonar con el medio de pago que te quede más cómodo</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="productos" id="productos">
+            <div class="productos-titulo">
+                <h2>Lo más pedido</h2>
+            </div>
+            <div class="productos-cont">
+                <div class="productos-info">
+                    <img src="./media/comida gato.jpeg" alt="comida gato">
+                    <h4>Excellent Adulto 1kg </h4>
+                    <p>$1750</p>
+                    <button class="btn-add">Comprar</button>
+                </div>
+                <div class="productos-info">
+                    <img src="./media/comida perro.jpeg" alt="comida perro">
+                    <h4>Royal canin Renal 7kg </h4>
+                    <p>$13.980</p>
+                    <button class="btn-add">Comprar</button>
+                </div>
+                <div class="productos-info">
+                    <img src="./media/pastilla.jpeg" alt="pastilla antipulgas">
+                    <h4>Nexgard 10-25 kg</h4>
+                    <p>$3790</p>
+                    <button class="btn-add">Comprar</button>
+                </div>
+                <div class="productos-info">
+                    <img src="./media/juguete.jpeg" alt="pack juguetes">
+                    <h4>Pack 4 sogas</h4>
+                    <p>$3500</p>
+                    <button class="btn-add">Comprar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="cuenta" id="cuenta">
+        <div class="cuenta">
+            <div class="cuenta-title">
+                <h2>Mi cuenta</h2>
+                    <div class="cuenta-ingresar">
+                        <a class="link-login" href="iniciarSesion.html">Iniciar sesión</a>
+                    </div>
+                    <div class="cuenta-registro">
+                        <a class="link-registro" href="registro.html">Registrarme</a>
+                    </div>
+            </div>
+        </div>
+        </section>
+
+        <section clas="contacto" id="contacto">
+        <div class="info-footer">
+            <div class="contact-footer">
+                <h2>Contacto</h2>
+                <div class="redes-logo">
+                    <a href="#"><img src="./media/instagram-logo.png" alt="icono instagram"></a> 
+                    <div class="redes-txt">
+                        <p>@TodoMascotas</p>
+                    </div>
+                </div>
+                <div class="redes-logo">
+                    <a href="#"><img src="./media/facebook-logo.png" alt="icono facebook"></a>
+                    <div class="redes-txt">
+                        <p>/TodoMascotas</p>
+                    </div>
+                </div>
+                <div class="redes-logo">        
+                    <a href="#"><img src="./media/whatsapp-logo.png" alt="icono whatsapp"></a>
+                    <div class="redes-txt">
+                        <p>+54 11 5689 8754</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+        <div class="mapa-footer">
+            <h2>Nuestra ubicación:</h2>
+            <p>Av 14 5201 - Berazategui centro</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.8447056205046!2d-58.20722892499512!3d-34.75950456574106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32f4e9725d279%3A0x4107c9fba8884ef7!2sAv.%2014%205201%2C%20B1880LMN%20Berazategui%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1686528809952!5m2!1ses!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </footer>
+</body>
+</html>
